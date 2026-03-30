@@ -176,7 +176,5 @@ Discuss at least two of the following topics on Recursion for your initial post.
 - Submit your assignment by clicking in the Module Assignment, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add the URL to your GitHub repository in the comments area, and then click on Submit.
     - \<your_last_name\>-\<module_number\>\<course\>.zip.
     - Example: darrell_mod_2_csd420.zip.
-- Click on the following for instructions: 
-
 
 #### Summary
