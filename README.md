@@ -96,3 +96,87 @@ Write a JavaFX program that displays four images randomly selected from a deck o
     - Example: darrell_mod_2_csd420.zip.
 
 #### Summary
+
+- This module was a deeper dive into JavaFX and the different aspects that come with it.
+- Specifically, the use of buttons and events that trigger the buttons.
+- Events can also be used to trigger when a key is pressed or the mouse is clicked or even moved.
+- Triggers call for methods which can perform any programming function you need it to.
+
+## Week Two
+
+**Monday, March 30th, 2026 through Sunday, April 5th, 2026**
+
+### Module Two: Binary I/O and Recursion
+
+In the last module, you learned about Event-Driven programming, working with Events and Event sources, and Lambda Expressions. In this module, you will be introduced to Java’s classes for performing file I/O. We will use both text and binary I/O. Some of the Java classes we will use are RandomAccessFile, BufferedInputStream, BufferedOutputStream, FileInputStream and FileOutputStream. In addition, you will be introduced to Recursion.
+
+- Explain the ‘what’, ‘how’, and ‘why’ of the Java,s Binary I/O and Recursion.
+- Understand and use Binary File I/O.
+- RandomAccessFile.
+- BufferedInputStream.
+- BufferedOutputStream.
+- FileInputStream.
+- FileOutputStream.
+- Write and use Recursive Methods.
+- Use the GitHub repository.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 2 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 2 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapters 17 & 18 in Introduction to Java: Programming and Data Structures.
+- Read the Java Tutorial, including Java Files, Java Create/Write Files, Java Read Files, Java Delete Files, and Java Recursion.
+- Print Writer Video.
+    - PrintWriter_Video_Examples.zip.
+- Random Access File Video.
+    - RandomAccessFile_Video_Examples.zip.
+- Recursion Examples Video.
+    - Recursion_Video_Examples.zip.
+
+#### Discussion Board
+
+Discuss at least two of the following topics on Recursion for your initial post. Provide a code example to elaborate on your thoughts.
+
+- Sort using recursion.
+- Binary search using recursion.
+- Discuss how recursive method invokes are handled in a call stack.
+- How to print a directory structure file list using recursion.
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 2.2 
+
+**Follow the directions below:**
+
+- Write a program that stores:
+    - An array of five random integers.
+    - An array of five random double values.
+- Write the data in a file titled [yourname] datafile.dat.
+- If there is no file, the file will be created.
+- If there is a file, the data will be appended.
+- Write a second program that will read the file and display the data.
+- Test the code to ensure the code functions correctly. 
+
+**Assignment Requirements and Grading:**
+
+- This assignment is due by Sunday, 11:59 p.m., CST.
+- Add the necessary documentation as described in Documentation Requirements. Click for more options.
+- Capture screenshots, combined in a single Word document, demonstrating you have correctly installed and configured Java and JavaFX. Include your name, date, and assignment number.
+- Submit your assignment by clicking in the Module Assignment, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add the URL to your GitHub repository in the comments area, and then click on Submit.
+    - \<your_last_name\>-\<module_number\>\<course\>.zip.
+    - Example: darrell_mod_2_csd420.zip.
+- Click on the following for instructions: 
+
+
+#### Summary
