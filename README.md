@@ -130,7 +130,7 @@ In the last module, you learned about Event-Driven programming, working with Eve
 #### Resources
 
 - Read Chapters 17 & 18 in Introduction to Java: Programming and Data Structures.
-- Read the Java Tutorial, including Java Files, Java Create/Write Files, Java Read Files, Java Delete Files, and Java Recursion.
+- Read the [Java Tutorial](https://www.w3schools.com/java/), including Java Files, Java Create/Write Files, Java Read Files, Java Delete Files, and Java Recursion.
 - Print Writer Video.
     - PrintWriter_Video_Examples.zip.
 - Random Access File Video.
