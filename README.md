@@ -178,3 +178,147 @@ Discuss at least two of the following topics on Recursion for your initial post.
     - Example: darrell_mod_2_csd420.zip.
 
 #### Summary
+
+This module dealt with recursive functions and writing to files i both binary and text formats.
+
+**Writing to files:**
+In a text format, it would be human readable, but it takes up more space (each character is encoded to be read by a text reader). In binary format, text is written directly to it's binary format, which means that it harder to parse.  But it takes up far less physical space on a hard drive so it is preferable to store information this way when possible.
+
+Recursive Functions:
+Recursive functions are functions that call themselves.  The classic example is a factorial function.  $f(n) = n * f(n-1)$ 
+
+Another example is a recursive directory function.  The function looks through a directory and prints the information for a file if it is a file, and calls the full directory search function if it is a directory, showing the full directory and subdirectories of a directory.
+
+Recursive functions can be dangerous because if they are not properly executed, they can call themselves indefinitely and cause your program to crash.
+
+
+## Week Three
+
+**Monday, April 6th, 2026 through Sunday, April 12th, 2026**
+
+### Module Three: Generics
+
+In the last module, you worked with File I/O and Recursion. In this module, you will be introduced to generics. We will address the benefits of using generics, learn to define both generic classes and interfaces, and then how to implement them.
+
+- Create Generics Classes.
+- Implement Generic Classes.
+- Use the GitHub repository.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 3 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 3 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 19 in Introduction to Java: Programming and Data Structures.
+- Read the Java Tutorial, including Java Iterator.
+- Search the Web for Java information on Generics in Java.
+    - One possible helpful resource is Generics in Java (geeksforgeeks.org, 2024).
+- Generic Introduction Video.
+    - Generic_Intro_Examples.zip.
+- Classes and Methods Video.
+    - Classes_and_Methods_Examples.zip
+
+#### Discussion Board
+
+Discuss at least two of the following topics on Generics for your initial post. Provide a code example, where necessary, to elaborate on your thoughts.
+
+- Benefits of generics.
+- Use and definition of generic classes and interfaces.
+- Use of generic methods.
+- Raw generic types for allowing backward compatibility.
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 3.2 - Generics
+
+Write a test program that contains a static method that returns a new ArrayList:
+
+- The new ArrayList returned will contain all original values with no duplicates from the original ArrayList.
+- Fill the Original ArrayList with 50 random values from 1 to 20.
+- `public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list)`
+
+**Assignment Requirements and Grading:**
+
+- This assignment is due by Sunday, 11:59 p.m., CST.
+- Add the necessary documentation as described in Documentation Requirements. Click for more options.
+- Capture screenshots, combined in a single Word document, demonstrating you have correctly installed and configured Java and JavaFX. Include your name, date, and assignment number.
+- Submit your assignment by clicking in the Module Assignment, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add the URL to your GitHub repository in the comments area, and then click on Submit.
+    - \<your_last_name\>-\<module_number\>\<course\>.zip.
+    - Example: darrell_mod_2_csd420.zip.
+
+#### Summary
+
+
+### Module Four: Generics & Lists, Stacks, and Queues
+
+In the last module, we learned about generics, their benefits, and how to define generic classes. In this module, we will look at Java Collections. We will use List, Stacks, and Queues. For collections, we will also learn to iterate through them using a foreach loop. We will also address ArrayList and LinkedList, when and how to use them.
+
+- Explain the ‘what’, ‘how’, and ‘why’ of Java Collections.
+- Write and use Java Collections.
+- Lists.
+- ArrayList.
+- LinkedList.
+- Stacks.
+- Queues.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 4 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 4 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 20 in Introduction to Java: Programming and Data Structures.
+- Read the Java Tutorial, including Java ArrayList and Java LinkedList.
+- ArrayList Review Video.
+    - ArrayList_Review_Examples.zip.
+- More on Lists Video.
+    - MoreOnLists_2_Examples.zip.
+
+#### Discussion Board
+
+Discuss at least two of the following topics on Lists, Stacks, Queues, and Priority Queues for your initial post. Provide a code example, where necessary, to elaborate your thoughts.
+
+- Using foreach loops to traverse elements in a collection.
+- The difference between ArrayList and LinkedList, advantages and disadvantages of each.
+- Collection methods for sorting, searching, shuffling a list, and finding the largest and smallest elements.
+- Describe Vectors, ArrayList, and Stacks, explaining the differences.
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 4.2:
+
+Write a test program that stores 50,000 integers in a LinkedList and test the time to traverse the list using an iterator vs. using the get(index) method.
+
+- Test your program storing first 50,000 and then 500,000 integers.
+- After completing this program and having tested both values, in your comments, explain the results and discuss the time taken using both values and their difference with the get(index) approach.
+- Write test code that ensures the code functions correctly.
+
+**Assignment Requirements and Grading:**
+
+- This assignment is due by Sunday, 11:59 p.m., CST.
+- Add the necessary documentation as described in Documentation Requirements. Click for more options.
+- Capture screenshots, combined in a single Word document, demonstrating you have correctly installed and configured Java and JavaFX. Include your name, date, and assignment number.
+- Submit your assignment by clicking in the Module Assignment, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add the URL to your GitHub repository in the comments area, and then click on Submit.
+    - \<your_last_name\>-\<module_number\>\<course\>.zip.
+    - Example: darrell_mod_2_csd420.zip.
+
+#### Summary
