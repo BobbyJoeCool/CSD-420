@@ -258,6 +258,8 @@ Write a test program that contains a static method that returns a new ArrayList:
 
 #### Summary
 
+This module focused on Generics.  A generic is basically a generic type that can be used that gets defined when something gets assigned to it.  The best advantage of it is when making a method to read something, such as Integers, Doubles, ints, floats, etc that can be reused for each, rather than making multiple overloaded methods, you can make one method with a generic type.  It still keeps all the type cast requirements, but allows you to essentially have the type be "any" coming in. 
+
 
 ### Module Four: Generics & Lists, Stacks, and Queues
 
@@ -320,5 +322,58 @@ Write a test program that stores 50,000 integers in a LinkedList and test the ti
 - Submit your assignment by clicking in the Module Assignment, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add the URL to your GitHub repository in the comments area, and then click on Submit.
     - \<your_last_name\>-\<module_number\>\<course\>.zip.
     - Example: darrell_mod_2_csd420.zip.
+
+#### Summary
+
+This week focused on the use of ArrayLists and LinkedLists as well as Stacks and Queues.  There are advantages and disadvantages to each.
+
+## Week Four
+
+**Monday, April 13th, 2026 through Sunday,April 19th, 2026**
+
+### Module Five: Sets, Maps, and Sorting
+
+In the last module, we learned about Java Collections such as List, Stacks, and Queues. In this module, we will learn about additional Collections: Sets and Maps. Some of the types of Sets and Maps we will look at are HashSet, LinkedHashSet, TreeSet, HashMap, LinkedHashMap, and TreeMap.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 5 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 5 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapters 21 & 23 in Introduction to Java: Programming and Data Structures.
+    - Read the [Java Tutorial](https://www.w3schools.com/java/default.asp), including Java HashSet, Java HashMap, Java Enums, Java RegEx, and Java Wrapper Classes.
+- Sets Video.
+    - Set_Examples.zip.
+- Maps Video.
+    - Maps Example.zip
+
+#### Discussion Board
+
+Discuss one of the following topics on Sets and Maps for your initial post. Provide a code example to elaborate on the collection you have selected and your thoughts on that collection type.
+
+- Sets
+- Maps
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 5.2
+
+Follow the directions below:
+
+Write a test program that reads words from a text file and displays all non-duplicate words in ascending order and then in descending order.
+
+- The file is to be referenced in the program, not needing to be used as a command-line reference.
+- The Word file is to be titled collection_of_words.txt and included in your submission.
+- Write test code that ensures the code functions correctly.
 
 #### Summary
