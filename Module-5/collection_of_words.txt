@@ -1,0 +1,101 @@
+Dragon
+Dragon
+Beholder
+Beholder
+Lich
+Lich
+Mind Flayer
+Mind Flayer
+Gelatinous Cube
+Owlbear
+Owlbear
+Tarrasque
+Hydra
+Hydra
+Chimera
+Mimic
+Mimic
+Goblin
+Goblin
+Hobgoblin
+Bugbear
+Orc
+Orc
+Half-Orc
+Kobold
+Kobold
+Gnoll
+Troll
+Troll
+Ogre
+Ogre
+Hill Giant
+Fire Giant
+Frost Giant
+Storm Giant
+Skeleton
+Skeleton
+Zombie
+Zombie
+Vampire
+Vampire
+Werewolf
+Devil
+Devil
+Demon
+Demon
+Angel
+Tiefling
+Tiefling
+Aasimar
+Dragonborn
+Dragonborn
+Hill Dwarf
+Mountain Dwarf
+High Elf
+Wood Elf
+Dark Elf
+Halfling
+Halfling
+Rock Gnome
+Forest Gnome
+Human
+Human
+Goliath
+Firbolg
+Tabaxi
+Half-Elf
+Dracolich
+Undead
+Undead
+Fiend
+Fiend
+Celestial
+Celestial
+Aberration
+Monstrosity
+Chaotic Evil
+Lawful Good
+Neutral Evil
+Chaotic Neutral
+Lawful Neutral
+True Neutral
+Lawful Evil
+Chaotic Good
+Fighter
+Fighter
+Wizard
+Wizard
+Rogue
+Rogue
+Cleric
+Cleric
+Paladin
+Ranger
+Barbarian
+Sorcerer
+Sorcerer
+Warlock
+Warlock
+Bard
+Monk
