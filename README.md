@@ -377,3 +377,62 @@ Write a test program that reads words from a text file and displays all non-dupl
 - Write test code that ensures the code functions correctly.
 
 #### Summary
+
+This module talked about Sets, Maps, and Sorting.  A set is different from a list or map because it doesn't allow duplicate values, and that is is unordered.  This can be useful in many cases, especially for cases when you want to know if a value is "in" a list.  THe processing time is much faster looking through a set for this than a list.  A map is like a dictionary and one of the most powerful collections in programming.  It allows you to pair a key with a value, and has powerful methods for retrieving those values.  Sorting is a key tool to use, especially when you are unable to use an automatic sorting method.  Several methods for sorting were discussed.
+
+## Week Five
+
+**Monday, April 20th, 2026 through Sunday, April 26th, 2026**
+
+### Module Six: Lists, Stacks, Queues and Priority Queues, Sets & Maps
+
+In this module, we will learn about sorting and implementing List and Queues. Some of the sorts we will learn are insertion, bubble, merge, and binary. We will also learn about interfaces of Collection subtypes, Enums, wrapper classes, and regular expressions.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 6 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 6 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 24 in Introduction to Java: Programming and Data Structures.
+- Read the [Java Tutorial](https://www.w3schools.com/java/), including Java Enums, Java RegEx, and Java Wrapper Classes.
+- Insertion Video.
+    - Insertion_Sort_Example.zip.
+- Bubble Video.
+    - Bubble_Sort_Examples.zip  
+
+#### Discussion Board
+
+The following topics cover Java features. Choose one topic from Group 1 and one topic from Group 2 for your initial post. For each of the topics you have selected, provide code examples to elaborate on your thoughts.
+
+**Group 1**
+
+- Enums
+- Wrapper Classes
+- Regular Expressions
+
+**Group 2**
+
+- Comparable
+- Comparator
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 6.2
+
+Follow the directions below:
+
+- Write a program with the two following generic methods using a bubble sort: Module 6 Programming Assignment Click for more options. The first method sorts the elements using the Comparable interface, and the second uses the Comparator interface.
+- Bubble_Sort.java Click for more options is a solution zip file for your review. Ensure you write your own code, only using the attached solution as an example, and document your code.
+- Write test code that ensures your code functions correctly.
+
+#### Summary
