@@ -436,3 +436,126 @@ Follow the directions below:
 - Write test code that ensures your code functions correctly.
 
 #### Summary
+
+This chapter dove deeper under the hood in how Lists, Stacks, Queues and whatnot worked.  It also talked about Comparator and Comparable classes and how and when to use them.  The biggest take away I took from this section is that Enums in Java work differently than they do in most languages.  In most languages, they are a set list of things that a variable can be.  In Java, that act as miniature classes, with each member of the Enum being able to hold different values in the same way a class object can hold values (or attributes).  It can also hold methods like getters and setters.  The issue with this is that it can blur the line between an Enum and a proper Class.
+
+## Week Six
+
+**Monday, April 27th, 2026 through Sunday, May 3rd, 2026**
+
+### Module Seven: More JavaFX
+
+In the last module, we learned about sorting and implementing List and Queues. In this module, we will take another look into JavaFX, going over advanced JavaFX features. One of the additional JavaFX features we will look at is JavaFX CSS. We will also learn about using JavaFX to translate, rotate, and scale node coordinates, in addition to other features such as Menus and Panes.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 7 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 7 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 31 in Introduction to Java: Programming and Data Structures.
+- Search the web for Java information on Advanced JavaFX and FXML.
+    - One possible helpful resource is [Introduction to FXML](https://openjfx.io/) (openjfx.io, 2017).
+    - Another possible helpful resource is Creating JavaFX user interfaces using FXML.
+- JavaFX-CSS Video.
+    - JavaFX-CSS_Examples.zip.
+- Translations Rotations Strokes Video.
+    - Translations_Rotations_Strokes_Examples.zip.
+
+#### Discussion Board
+
+The following topics cover Advanced JavaFX and FXML. Choose one topic from Group 1 and one topic from Group 2 to discuss for your initial post. Provide a code example, where necessary, to elaborate on your thoughts.
+
+**Group 1**
+
+- Rotations
+- Menus
+- SplitPane
+- TableView
+- Controller
+- Handling Controller Events
+
+**Group 2**
+
+- FXML Program Development
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 7.2
+
+Follow the directions below:
+
+- Create an external CSS style sheet that defines a class for white fill and black stroke color and an ID for red and green color.
+- Write a JavaFX program that displays four circles and uses the style class and ID. The sample run of the program is shown in the following image. Use the mystyle.css found early in Chapter 31, something like the following code and image: Module 7 Programming Assignment.
+- Write test code that ensures your code functions correctly.
+
+#### Summary
+
+### Module Eight: Multithreading
+
+In the last module, we learned about advanced JavaFX features. In this module, we will learn about multithreading using Java’s Thread class and Runnable interface. We will cover starting and stopping threads along with handling thread exceptions. Lastly, we will address methods and block synchronization.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 8 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 8 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 32 in Introduction to Java: Programming and Data Structures.
+- Search the web for additional information on Multithreading and Parallel Programming using Java.
+    - One possible helpful resource is Multithreading in Java.
+- Threads Video.
+    - Thread_Examples.zip.
+- Runnable Video.
+    - Runnable_Interface_Examples.zip.
+- Join Video.
+    - Join_Threads_Example.zip.
+
+#### Discussion Board
+
+The topics for this discussion cover Multithreading and Parallel Programming using Java. Choose one topic from Group 1 and one topic from Group 2 for your initial post. Provide a code example where necessary to elaborate on your thoughts.
+
+**Group 1**
+
+- Runnable Interface, Advantages and Disadvantages
+- Thread Class, Advantages and Disadvantages
+
+**Group 2**
+
+- StringBuilder and StringBuffer
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 8.2
+
+Follow the directions below:
+
+- Create a class titled [your first="" name="" here=""] ThreeThreads.
+    - In this class, you are to use three threads to output three types of characters to a text area for display.
+        - In the first thread, you are to output random letter characters such as a, b, c, d …
+        - In the second thread, you are to output random number digits such as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+        - In the third thread, you are to output random characters such as !, @, #, $, %, &, *
+    - Display a minimum of 10,000 for each of the three sets.
+- Write test code that ensures all methods function correctly.
+- Lastly, do not display all data for each thread together.  Each character is to be displayed as each one is generated.  Example:
+    - 179$^fq*fg1k1k2^%1m4
+
+#### Summary
