@@ -1,0 +1,23 @@
+/* Class for vertical box around first circle */
+.box-rectangle {
+    -fx-fill: transparent;
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+/* Class for white fill with black stroke */
+.white-circle {
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+}
+
+/* ID for red circle */
+#red-circle {
+    -fx-fill: red;
+}
+
+/* ID for green circle */
+#green-circle {
+    -fx-fill: green;
+}
