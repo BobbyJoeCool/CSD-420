@@ -500,6 +500,8 @@ Follow the directions below:
 
 #### Summary
 
+This section reminded me how much I dislike JavaFX and XML.  Although FXML is far superior to building a GUI directly with code in JavaFX, XML is like HTMLs clunky step-cousin.  With frameworks like React being able to run scripts in the back, makes a far easier to use GUI interface, and they are already iOS, Android compatible with React Native. Java is not a great language for writing GUIs.  While Java is a great language for writing type safe back end applications, user interfaces are not its forte.
+
 ### Module Eight: Multithreading
 
 In the last module, we learned about advanced JavaFX features. In this module, we will learn about multithreading using Java’s Thread class and Runnable interface. We will cover starting and stopping threads along with handling thread exceptions. Lastly, we will address methods and block synchronization.
@@ -559,3 +561,5 @@ Follow the directions below:
     - 179$^fq*fg1k1k2^%1m4
 
 #### Summary
+
+Threading is an interesting and powerful concept. The ability to run multiple threads of a program simultaneously can be very powerful. It is especially powerful if it is to be used to run processes in the background while the main program an run uninterrupted.  It obviously has other potential uses as well.
