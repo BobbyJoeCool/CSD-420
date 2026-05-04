@@ -563,3 +563,65 @@ Follow the directions below:
 #### Summary
 
 Threading is an interesting and powerful concept. The ability to run multiple threads of a program simultaneously can be very powerful. It is especially powerful if it is to be used to run processes in the background while the main program an run uninterrupted.  It obviously has other potential uses as well.
+
+## Week Seven
+
+**Monday, May 4th, 2026 through Sunday, May 10th, 2026**
+
+### Module Nine: Java Database Programming
+
+In the last module, we learned how to create threads, stop and start them, handle exceptions they may throw, and synchronization of methods and blocks. In this module, we will be introduced to database programming and have a better understanding of databases and Database Management Systems (DBMS). We will connect to a database and execute statements such as creating and dropping tables.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 9 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 9 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Read Chapter 34 in Introduction to Java: Programming and Data Structures.
+- Search the Web for information on Java Database programming.
+    - One possible resource is [Java Database Programming (JDBC) An Intermediate Tutorial](https://www3.ntu.edu.sg/home/ehchua/programming/java/JDBC_Intermediate.html).
+    - Another possible helpful resource is [JDBC - Sample, Example Code](https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm).
+    - A third tutorial that may be helpful is [MySQL Java](https://zetcode.com/db/mysqljava/).
+- Setup Account Video.
+    - MySQL_Config_Examples.zip.
+
+#### Discussion Board
+
+The following topics cover Java Database programming. Choose one topic from Group 1 and one topic from Group 2 for your initial post. Provide a code example where necessary to elaborate on your thoughts.
+
+**Group 1**
+
+    - Difference between a DBMS and a Database
+    - SQL for creating, populating, modifying, and dropping tables
+    - Connection to a database with Java
+
+**Group 2 - Java Classes**
+
+    - DriverManager
+    - Connection
+    - Statement
+    - ResultSet
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 9.2
+
+- For this assignment, you are to ensure you have Java and NetBeans correctly installed and configured.
+- Then you must correctly install and configure MySQL 5.
+- The following code example is to be used to test your setup.
+- Code Example for Testing Setup (Zip File) Click for more options.
+- Your database name is to be "databasedb", user ID “student1”, and the password for this account will be “pass”.
+- Lastly, you must configure the database to allow a Java connection.
+- Capture and submit images in a single document of your running of the test application to show you were successful with the installation and configuration.
+
+#### Summary
