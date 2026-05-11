@@ -28,3 +28,6 @@ Examples/
 
 # Open files
 ~$*
+
+# Environment variables
+.env

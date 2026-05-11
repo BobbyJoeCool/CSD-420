@@ -16,7 +16,7 @@ GRANT ALL PRIVILEGES ON * . * TO student1@'localhost';
 
 EXIT;
 
-C:\Program Files\MySQL\MySQL Server 5.7\bin>mysql -u student33 -p
+C:\Program Files\MySQL\MySQL Server 5.7\bin>mysql -u student1 -p
 Enter password: ****
 
 SELECT CURRENT_USER();

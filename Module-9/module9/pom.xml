@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rbreutzmann</groupId>
+    <artifactId>module9</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+ 
+    <name>module9</name>
+    <url>http://www.myorganization.org</url>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>25</maven.compiler.release>
+        <speedment.version>2.3.7</speedment.version>
+        <mysql.version>9.5.0</mysql.version>
+    </properties>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.speedment</groupId>
+                <artifactId>speedment-maven-plugin</artifactId>
+                <version>${speedment.version}</version>
+                
+                <dependencies>
+                    <!--
+                    MySQL Connector:5.1.38
+                    General Public License (GPL) 2.0 with FOSS exception
+                    http://www.gnu.org/licenses/gpl-2.0.html
+                    https://www.mysql.com/about/legal/licensing/foss-exception/
+                    2015-06-02
+                    emifor
+                    -->
+                    <dependency>
+                        <groupId>com.mysql</groupId>
+                        <artifactId>mysql-connector-j</artifactId>
+                        <version>${mysql.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>enforce-maven</id>
+                        <goals><goal>enforce</goal></goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.9.11</version>
+                                </requireMavenVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+ 
+    <dependencies>
+        <!-- LICENSE INFORMATION
+        speedment:2.3.7
+        Apache 2 License
+        http://www.apache.org/licenses/LICENSE-2.0.txt
+        2016-01-21
+        emifor
+        -->
+        <dependency>
+            <groupId>com.speedment</groupId>
+            <artifactId>speedment</artifactId>
+            <version>${speedment.version}</version>
+        </dependency>
+        
+        <!--
+        MySQL Connector:5.1.38
+        General Public License (GPL) 2.0 with FOSS exception
+        http://www.gnu.org/licenses/gpl-2.0.html
+        https://www.mysql.com/about/legal/licensing/foss-exception/
+        2015-06-02
+        emifor
+        -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>${mysql.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+    </dependencies>
+</project>
