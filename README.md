@@ -625,3 +625,62 @@ The following topics cover Java Database programming. Choose one topic from Grou
 - Capture and submit images in a single document of your running of the test application to show you were successful with the installation and configuration.
 
 #### Summary
+
+Java's methods for dealing with Databases are more in depth than Pythons.  Java has methods that specifically allow you to build and track the variables you enter into a SQL statement.  Connecting to and working with a Database retrieves something called a Results Set.  Which is similar to a 2D array.  Then methods retrieve the information into whatever format the program requires.
+
+## Week Eight
+
+**Monday, May 11th, 2026 through Sunday, May 17th, 2026**
+
+### Module Ten: Java Database Programming Part II
+
+In the last module, we were introduced to working with databases and Database Management Systems (DBMS). In this module, we get deeper into working with databases using additional types of statements.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 10 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 10 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Review Chapter 34 in Introduction to Java: Programming and Data Structures.
+- Read Chapter 35 in Introduction to Java: Programming and Data Structures.
+- JDBC Introduction Video.
+    - JDBC_Introduction_Examples.zip.   
+- Another JDBC Example Video.
+    - Another_JDBC_App_Examples.zip.
+- JDBC GUI Video.
+    - Swing_GUI_MySQL_Examples.zip.
+
+#### Discussion Board
+
+Discuss the following topics on Java Database Programming. Select at least one of the following topics for your initial post.
+
+- Batch Processing.
+- Scrollable and Undated ResultSet.
+- Scrollable and Undated RowSet.
+- Storing and Retrieving Images in JDBC.
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 10.2
+
+- Write a program that views and updates fan information stored in a database titled "databasedb", user ID titled “student1” with a password “pass”.
+- The table name is to be “fans” with the fields of ID (integer, PRIMARY KEY), firstname (varchar (25)), lastname (varchar(25)), and favoriteteam (varchar(25)).
+- Your interface is to have 2 buttons to display and update records.
+    - The display button will display the record with the provided ID in the display (ID user provides).
+    - The update button will update the record in the database with the changes made in the display.
+- Your application is not to create or delete the table.
+- To work on this using your home database, you can make the table and populate it.
+- When the application is tested, the table will already be created and populated.
+- Write test code that ensures all methods and the interface functions correctly.
+
+#### Summary
