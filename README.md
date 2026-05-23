@@ -685,3 +685,58 @@ Discuss the following topics on Java Database Programming. Select at least one o
 
 #### Summary
 
+## Week Nine
+
+**Monday, May 18th, 2026 through Sunday, May 24th, 2026**
+
+### Module Eleven: JSON
+
+In the last module, we learned more about working with databases. In this module, we will learn about using Java to work with JSON files. We will review different Java JSON APIs, JSON syntax rules, and how a JSON file can be parsed.
+
+#### Deliverables
+
+- Review Module Resources.
+- Module 11 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 11 Programming Assignment - Due by Sunday 11:59 p.m., CST.
+- Module 11 Review Assignment - Due by Sunday 11:59 p.m., CST.
+
+#### Resources
+
+- Search the Web for information on Java and JSON.
+    - One possible helpful resource is [How to parse JSON in Java](https://www.geeksforgeeks.org/java/parse-json-java/).
+    - Another possible helpful resource is [Working with JSON Data in Java](https://www.geeksforgeeks.org/java/working-with-json-data-in-java/).
+
+#### Discussion Board
+
+Discuss the following about JSON (JavaScript Object Notation). Select two of the following topics for your initial post.
+
+- What is JSON?
+- What are the advantages and disadvantages?
+- How to parse JSON using Java?
+- What languages other than Java and JavaScript support JSON?
+
+**'What', 'How', and 'Why'**
+
+- **What:** What are you writing about? Give the audience a brief overview of the topic by providing them with foundational information (history, background information, etc.).
+- **How:** How is the information relevant? Apply personal knowledge (this can be through research or actual practiced knowledge) to build trust with the audience.
+- **Why:** Justify your position and/or course of action. The audience needs proof the information you are presenting is creditable and actionable.
+
+#### Assignments
+
+##### Assignment 11.2: Paper Assignment
+
+- Select a Java JSON API and write a (500-word minimum) paper on the options available in that API, features and processes supported, short history of the API, and a web address for downloading the JAR files, including all JAR files zipped together in a single file.
+- Remember to correctly cite your resources.
+- Write the paper in your own words, correctly quoting all you use in your paper, keeping the amount quoted below 5 – 10%.
+- Lastly, attach an additional Java JSON example (not included in your paper) that you found in your research of the Java JSON API you selected.
+
+##### Assignment 11.3: Redo Assignment
+
+For this assignment, you may redo one of the programming assignments you previously did and are not satisfied with your score.
+
+Attach your work to this assignment, and you will be given makeup points based on the quality of the update.
+
+- Include which module assignment you are redoing for this assignment.
+
+#### Summary
